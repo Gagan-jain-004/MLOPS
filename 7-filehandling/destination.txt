@@ -1,0 +1,4 @@
+Hll well
+this is a new lineAppending content in a file without overwritingFirst line 
+Second line 
+thirdline 
