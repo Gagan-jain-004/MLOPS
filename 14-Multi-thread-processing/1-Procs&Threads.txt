@@ -1,0 +1,14 @@
+- Program
+  sequence of instructions written in a programming lang .
+  eg- google Chrome is a  .exe  file  has sequence of instrxn(how this browsr should work)
+
+- Process
+  it is an instance of program that is being executed
+  (inshort program in exceution)
+
+- Thread
+   exceution within a Process
+
+eg- Process (consists memory space - code sgment , data segmnt,heap,stack,register)
+threads emerges from the process carrying their own stack and register and other things from Process
+so like in multithreading differnt threads just use own stack nd register withing process
