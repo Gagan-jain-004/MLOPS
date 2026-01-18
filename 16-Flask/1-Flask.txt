@@ -1,0 +1,6 @@
+Flask Framework
+
+- WSGI (web server gateway interface) is a protocol that lets server to interact with web app
+- Jinja 2 Template Engine - it's importance is it combines web templates with datasource like (ml model , sql db ,csv sheet)
+
+Flask : python Web framework 
