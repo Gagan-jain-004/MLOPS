@@ -1,0 +1,19 @@
+Probability Distribution Fxn-
+            It describe how the probabilities are distributed over the values of random variable
+        Two types of probability distributn
+          -Probability mass fxn -
+                            used for discrete random variable
+          - Probability density fxn-
+                            used for continous random variable
+
+NOTES IN PDF    
+
+@2nd lec-------
+
+-Bernoulli Distribution -> Outcomes are binary(0,1) here (pmf) so it meant for discrete random variable
+-Binomial Distribution->  pmf
+-Normal/gaussian distribution -> pdf
+-Poisson => pmf
+-> Log Normal Distribution -> pdf
+->  Uniform Distribution  -> pmf
+

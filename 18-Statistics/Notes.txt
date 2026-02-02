@@ -1,0 +1,149 @@
+Types of statistics-
+
+1) Descriptive :  It consist of organizing and summarizing of data
+                  Measure of central tendency (mean mode median)
+                  Measure of Dispersion( variance standardDeviation)
+                  
+2) Inferential:   Get conclusions or inferences for the specific data (popluation data) from collected data 
+                  by performing some experiments(Z test,t test).
+
+eg) like a college A of 1000 students 
+v pick class statisics of height of random students 
+{180,170,162,150,160}cm                 
+so by descriptive we can find mean median     so v can say avg=165
+
+for 1000 student we give avg height of college by estimating the sample data to give conculsions 
+so 1000 student is population data 
+
+
+LEC- 3 
+population (N)   sample(n)
+coz if u have to measure avg weight of 100k people it would be better to pick sample 10k data from it and draw out 
+conclusion for 100k
+
+##--------------     Lec 4
+Mean= average
+Median = arrange them in sorted order then return middle element
+
+
+##--------------     Lec 5
+Measure of dispersion
+
+-Variance
+-Standart Deviation
+
+age={2,2,4,4}                          ages2={1,1,5,5}
+mean= 3                                mean=3
+spread is less(btw 2,4)                 spread is more(btw 1,5)
+
+##--------------     Lec 7
+Variance gives the spread,dispersion
+Standard deviation gives how far u r away from mean
+
+
+##--------------     Lec8
+variable types-
+              Quantitative (it has two types 
+                                  - Discrete  eg) whole numbers only 
+                                   - Continuous  eg) Decimal can be     )
+                                      
+               Qualitative (categorical )-
+                                eg) colors (orange,green)
+
+##--------------     Lec9
+Random variable - 
+               is a fxn whose values are determined by various experiments or processes
+            types
+                -Discrete random variabl= eg) tossing a coin, rolling a dice
+                -Continous random variable = eg) tomorrow how much inches it can ranin (0,1.5,,,, ... can go infinite) ,  Height of the people attending event tomorrow
+
+##--------------     Lec10
+Histogram :   it's just drawing graph using frequency in range u select 
+
+
+
+
+
+##--------------     Lec11
+Percentile- 
+            It is a value below which certain percentage of observations lies
+     formula- 
+            Percentile of value x = (no. of values below x / n ) * 100
+        
+        if percentile is given then to find value 
+            value = (Percentile/100) * (n+1)
+        
+Quartile-
+          25%ile = 1 quartile ,    50%ile = 2nd quartile , 75%ile= 3rd quartile
+
+##--------------     Lec12
+5 NUmber summary
+1- Minimum
+2- 1st quartile(25%ile)
+3-Median
+4- 3rd quartile(75%ile)
+5- Maximum
+
+eg--       1,2,2,2,3,3,4,5,5,5,6,6,6,6,7,8,8,9,27
+as u can see 27 is outlier (jo baaki sab kaafi durri pe ho )
+so for removing outliers we founds lower fence , Higher fence  so anything outside this range get removes
+
+Lower fence=     Q1  - 1.5(IQR)                   # q1 is first quartile and Iqr is diff between q1 and q3 
+Higher fence =   Q3  + 1.5(IQR)
+
+Q1 = (Percentile /100 )*(n+1)                     # n is total no. of observation as per  above eg n=19
+Q1= (25/100)  *  (19+1)    
+   = 5th position                                so 5th position ki value 
+   = 3
+
+Q3= (75/100)*20  = 15th position = 7
+
+IQR = Q3 - Q1 = 7-3 = 4
+
+Lower fence = Q1 - 1.5(4) = -3 
+Higher fence = Q3 + 1.5(IQR)= 7+1.5*4 = 13
+
+so values below -3  and greater than 13  are outliers so remove them and rwrite expression
+
+------  new=       1,2,2,2,3,3,4,5,5,5,6,6,6,6,7,8,8,9
+minimum = 1 
+Q1= 3   (above calculated)
+Median new wali sai mid nikal le  i.e. =  5
+Q3 = third quartile = 7     (calculated above)
+Maximum = 9
+
+
+By this 5 results we can plot  Box plot 
+
+
+
+##--------------     Lec13   Correlation and Covariance
+
+Covariance and correlation are two statistical measures used to determine the relationship between two variables(continuous variables) 
+Both r used to understand how changes in one variable(continuous variables) are associated with changes in another variable
+
+Covariance- 
+        It is a measure of how much two random variables change together.
+        If the variables tend to increase and decrease together, the covariance is positive.
+        If one tends to increase when the other decreases, the covariance is negative.
+    # see formula in copies 
+
+Advantage of covariance -
+                        Quantify the relationship between x and y 
+Disadvantage of covariance-
+                Covariance doesn't have a specific limit value eg) x,y,z
+                we can't say that Cov(x,y) > or < than Cov(z,x)  so for this 
+         Correlation comes in picture 
+
+
+Correlation-
+            Types-
+                Pearson Correlation coefficient
+                Spearman Rank Correlation
+    
+    -Pearson Correlation coefficent: 
+                                    it limits the value in range [-1,1]
+                                    formula in copy
+    -Spearman Correlation coefficient:
+                                     pearson works for linear graph between x and y while spearman works for non linear graph btw x &y
+                               
